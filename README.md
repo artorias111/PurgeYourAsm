@@ -1,6 +1,6 @@
 # PurgeYourAsm
 
-Purge your assembly with purge_dups (https://github.com/dfguan/purge_dups).
+Purge your assembly with purge_dups (https://github.com/dfguan/purge_dups)
 
 ## Usage 
 ```shell
