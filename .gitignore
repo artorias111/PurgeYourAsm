@@ -1,0 +1,7 @@
+work/*
+results/*
+.nextflow*
+*.html
+.DS_Store
+.vscode/
+.idea/
