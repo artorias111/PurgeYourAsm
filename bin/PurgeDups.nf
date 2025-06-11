@@ -75,7 +75,7 @@ process process_purged_seqs {
     output:
     path "hap.fa", emit :purged_hap
     path "purged.fa", emit: assembly
-    path merged_purged.fa, emit: merged_purged
+    path "merged_purged.fa", emit: merged_purged
 
     script:
     """
