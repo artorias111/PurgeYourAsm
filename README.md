@@ -4,6 +4,9 @@ Purge your assembly with purge_dups (https://github.com/dfguan/purge_dups)
 
 ## Usage 
 ```shell
+# clone this repository on your local machine
+git clone https://github.com/artorias111/PurgeYourAsm.git && cd PurgeYourAsm
+
 # Run with default parameters
 nextflow run purge.nf --primary_asm assembly.fa --hifi_reads /path/to/hifi/reads
 # example
