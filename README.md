@@ -26,6 +26,14 @@ nextflow run purge.nf \
 ### Additional usage information
 you can also edit the `nextflow.log` file to your liking to run `purge_dups` as you see fit. 
 
+## Post run cleanup
+Once the job is complete, you can clean up the intermediate files (which can be quite big) with these two commands
+```shell
+# dry run: Find out which files are going to be removed
+nextflow clean -n
+# cleanup
+nextflow clean -f
+```
 
 ### Output
 There's 5 directories in `results` directory:
