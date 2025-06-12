@@ -28,3 +28,14 @@ you can also edit the `nextflow.log` file to your liking to run `purge_dups` as 
 
 
 ### Output
+There's 5 directories in `results` directory:
+```shell
+first_round_purged_busco_results
+first_round_purged_quast_results
+purged_assemblies
+second_round_purged_busco_results
+second_round_purged_quast_results
+```
+The final purged assembly is in `results/purged_assemblies/purged.fa` 
+
+If, for some reason, the first round purged assembly is preferred, you can find the corresponding purged assembly in the `work` directory. Refer to `.nextflow.log` to find the location of the purged assembly of your first run. 
