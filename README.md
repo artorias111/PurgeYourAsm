@@ -35,7 +35,7 @@ nextflow clean -n
 nextflow clean -f
 ```
 
-### Output
+## Output
 There's 5 directories in `results` directory:
 ```shell
 first_round_purged_busco_results
