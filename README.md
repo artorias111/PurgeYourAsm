@@ -44,6 +44,6 @@ purged_assemblies
 second_round_purged_busco_results
 second_round_purged_quast_results
 ```
-The final purged assembly is in `results/purged_assemblies/purged.fa` 
+The final purged assembly (second run) is in `results/purged_assemblies/purged.fa` 
 
 If, for some reason, the first round purged assembly is preferred, you can find the corresponding purged assembly in the `work` directory. Refer to `.nextflow.log` to find the location of the purged assembly of your first run. 
