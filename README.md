@@ -8,13 +8,13 @@ Purge your assembly with purge_dups (https://github.com/dfguan/purge_dups)
 git clone https://github.com/artorias111/PurgeYourAsm.git && cd PurgeYourAsm
 
 # Run with default parameters
-nextflow run purge.nf --primary_asm assembly.fa --hifi_reads /path/to/hifi/reads
+nextflow run main.nf --primary_asm assembly.fa --hifi_reads /path/to/hifi/reads
 # example
-nextflow run purge.nf --primary_asm /data2/work/Mmus.fa --hifi_reads /data2/work/Mmus_Revio_data
+nextflow run main.nf --primary_asm /data2/work/Mmus.fa --hifi_reads /data2/work/Mmus_Revio_data
 
 
 # Override parameters
-nextflow run purge.nf \
+nextflow run main.nf \
   --primary_asm assembly.fa \
   --hifi_reads /path/to/reads/ \
   --busco_lineage vertebrata_odb10 \
