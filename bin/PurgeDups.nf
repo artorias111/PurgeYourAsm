@@ -2,6 +2,8 @@
 
 process purge_dups_mmp2 {
 
+    label 'limit_mem'
+
     input: 
     path hifi_reads // list of read files, in fastq.gz
     path pri_asm
